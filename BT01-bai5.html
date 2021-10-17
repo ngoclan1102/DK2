@@ -1,10 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <meta charset="UTF-8">
+    <title>Title</title>
 </head>
 <body>
-$END$
+<script>
+    let num1 =parseFloat(prompt('nhap diem bai kiem tra'));
+    let num2 =parseFloat(prompt('nhap diem thi giua ky'));
+    let num3 =parseFloat(prompt('nhap diem thi cuoi ky'));
+    let a = ((num1+num2+num3)/3);
+    if (a >8) {
+        alert('loai gioi');
+    } else
+    if (a >=6.5) {
+        alert('loai kha');
+    } else
+    if (a >=5) {
+        alert('loai trung binh');
+    } else
+    if (a >=3.5) {
+        alert('loai yeu');
+    } else
+        alert('loai kem');
+</script>
 </body>
 </html>

@@ -1,10 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <meta charset="UTF-8">
+    <title>Title</title>
 </head>
 <body>
-$END$
+<script>
+    let a = prompt('nhap so a');
+    let b = prompt('nhap so b');
+    let c = prompt('nhap so c');
+    let denta = b*b-4*a*c
+    if (denta<0) {
+        alert('phuong trinh vo nghiem');
+    } else if (denta === 0) {
+        X1=X2=-b/(2*a)
+        alert(X1);
+    } else if (denta>0) {
+        X1=(-b+Math.sqrt(denta))/(2*a);
+        X2=(-b-Math.sqrt(denta))/(2*a);
+        document.write(X1 );
+        document.write(X2 );
+    }
+</script>
 </body>
 </html>
